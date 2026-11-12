@@ -1,0 +1,2 @@
+origin	git@github.com:nsaralashvili2004-cpu/netology-ssh-homework-3.git (fetch)
+origin	git@github.com:nsaralashvili2004-cpu/netology-ssh-homework-3.git (push)

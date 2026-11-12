@@ -1,0 +1,2 @@
+To github.com:nsaralashvili2004-cpu/netology-ssh-homework-3.git
+   30f2a43..66dca02  main -> main

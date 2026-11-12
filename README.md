@@ -80,7 +80,7 @@ git commit -m "Complete SSH access practical cases"
 git push origin main
 ```
 
-Вывод клонирования: [clone.txt](evidence/clone.txt). Результат отправки коммита будет сохранён после выполнения команды.
+Вывод клонирования: [clone.txt](evidence/clone.txt). Коммит `66dca02` успешно отправлен в ветку main. Подтверждения: [commit.txt](evidence/commit.txt), [push.txt](evidence/push.txt), [SSH-адрес origin](evidence/remote.txt). Запрос пароля был отключён параметром BatchMode=yes.
 
 ## Соответствие заданию
 
@@ -89,8 +89,8 @@ git push origin main
 | Клиент и защищённая ключевая пара | ssh-client.txt, key-fingerprint.txt, passphrase-check.txt, key-generated.png |
 | Публичный ключ в GitHub | github-key-added.png |
 | Подключение к GitHub | ssh-test.txt |
-| Клонирование, коммит и push | clone.txt, история коммитов репозитория |
+| Клонирование, коммит и push | clone.txt, commit.txt, push.txt, remote.txt |
 
 ## Вывод
 
-Настроена аутентификация по ключу Ed25519 с защитой парольной фразой. SSH-agent позволяет выполнять Git-операции без повторного ввода фразы в пределах срока загрузки ключа. Проверены добавление ключа и SSH-подключение; завершающая проверка отправки изменений выполняется отдельно.
+Настроена аутентификация по ключу Ed25519 с защитой парольной фразой. SSH-agent позволяет выполнять Git-операции без повторного ввода фразы в пределах срока загрузки ключа. Проверены добавление ключа, подключение к GitHub, клонирование репозитория и отправка коммита по SSH. Все четыре практических кейса выполнены.
