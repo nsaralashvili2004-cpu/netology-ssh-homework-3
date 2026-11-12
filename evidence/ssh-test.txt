@@ -1,0 +1,3 @@
+Hi nsaralashvili2004-cpu! You've successfully authenticated, but GitHub does not provide shell access.
+
+Exit code: 1

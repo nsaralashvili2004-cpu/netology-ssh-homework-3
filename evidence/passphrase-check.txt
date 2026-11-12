@@ -1,0 +1,2 @@
+Проверка открытия приватного ключа с пустой парольной фразой: отказ.
+Load key "/Users/nikita/.ssh/id_ed25519_netology_hw3": incorrect passphrase supplied to decrypt private key
