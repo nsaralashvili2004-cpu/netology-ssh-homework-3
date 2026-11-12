@@ -49,7 +49,7 @@ ssh-add -l
 ssh -T -i ~/.ssh/id_ed25519_netology_hw3 \
   -o IdentitiesOnly=yes -o BatchMode=yes \
   -o StrictHostKeyChecking=yes \
-  -o UserKnownHostsFile=github_known_hosts git@github.com
+  -o UserKnownHostsFile=./evidence/github_known_hosts git@github.com
 ```
 
 Файл `github_known_hosts` содержит ключ сервера GitHub, сверенный с [официальной документацией](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints). Его копия находится в каталоге evidence. При фактической проверке использован абсолютный путь к этому файлу.
@@ -70,6 +70,7 @@ Hi nsaralashvili2004-cpu! You've successfully authenticated, but GitHub does not
 
 ```bash
 git clone git@github.com:nsaralashvili2004-cpu/netology-ssh-homework-3.git
+cd netology-ssh-homework-3
 ```
 
 Перед командой установлен `GIT_SSH_COMMAND` с теми же параметрами ключа и проверки сервера, что в разделе 3. Затем создан файл `ssh_check.txt`, добавлены отчёт и подтверждения, создан коммит:
